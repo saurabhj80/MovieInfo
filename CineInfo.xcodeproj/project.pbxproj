@@ -14,6 +14,9 @@
 		1F64DCB71A3C07300058C2AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F64DCB61A3C07300058C2AE /* Images.xcassets */; };
 		1F64DCBA1A3C07300058C2AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F64DCB81A3C07300058C2AE /* LaunchScreen.xib */; };
 		1F64DCC61A3C07300058C2AE /* CineInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64DCC51A3C07300058C2AE /* CineInfoTests.swift */; };
+		1FE518EF1A3CD0520047881C /* IMDBSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE518EE1A3CD0520047881C /* IMDBSearch.swift */; };
+		1FE518F11A3CE5570047881C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE518F01A3CE5570047881C /* StringExtension.swift */; };
+		1FE518F51A3D3A4E0047881C /* kofk.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE518F41A3D3A4E0047881C /* kofk.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		1F64DCBF1A3C07300058C2AE /* CineInfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineInfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F64DCC41A3C07300058C2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F64DCC51A3C07300058C2AE /* CineInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineInfoTests.swift; sourceTree = "<group>"; };
+		1FE518EE1A3CD0520047881C /* IMDBSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMDBSearch.swift; sourceTree = "<group>"; };
+		1FE518F01A3CE5570047881C /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		1FE518F41A3D3A4E0047881C /* kofk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kofk.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 				1F64DCA91A3C07300058C2AE /* CineInfo */,
 				1F64DCC21A3C07300058C2AE /* CineInfoTests */,
 				1F64DCA81A3C07300058C2AE /* Products */,
+				1FE518F41A3D3A4E0047881C /* kofk.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +88,8 @@
 			children = (
 				1F64DCAC1A3C07300058C2AE /* AppDelegate.swift */,
 				1F64DCB11A3C07300058C2AE /* ViewController.swift */,
+				1FE518EE1A3CD0520047881C /* IMDBSearch.swift */,
+				1FE518F01A3CE5570047881C /* StringExtension.swift */,
 				1F64DCB31A3C07300058C2AE /* Main.storyboard */,
 				1F64DCB61A3C07300058C2AE /* Images.xcassets */,
 				1F64DCB81A3C07300058C2AE /* LaunchScreen.xib */,
@@ -197,6 +206,7 @@
 			files = (
 				1F64DCB51A3C07300058C2AE /* Main.storyboard in Resources */,
 				1F64DCBA1A3C07300058C2AE /* LaunchScreen.xib in Resources */,
+				1FE518F51A3D3A4E0047881C /* kofk.png in Resources */,
 				1F64DCB71A3C07300058C2AE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F64DCB21A3C07300058C2AE /* ViewController.swift in Sources */,
+				1FE518EF1A3CD0520047881C /* IMDBSearch.swift in Sources */,
+				1FE518F11A3CE5570047881C /* StringExtension.swift in Sources */,
 				1F64DCB01A3C07300058C2AE /* CineInfo.xcdatamodeld in Sources */,
 				1F64DCAD1A3C07300058C2AE /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +421,7 @@
 				1F64DCCB1A3C07300058C2AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F64DCCC1A3C07300058C2AE /* Build configuration list for PBXNativeTarget "CineInfoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				1F64DCCE1A3C07300058C2AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
